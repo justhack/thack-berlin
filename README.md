@@ -3,14 +3,19 @@ THack Berlin 2015
 
 # How to install
 
-`git clone [this repo]`
+* Install [vagrant](https://www.vagrantup.com/)
 
-`cd your dir`
+* `git clone [this repo]`
 
-`vagrant up`
-`vagrant ssh`
-`cd /vagrant`
-`composer install`
+* `cd your dir`
+
+* `vagrant up`
+
+* `vagrant ssh`
+
+* `cd /vagrant`
+
+* `composer install`
 
 # Database
 

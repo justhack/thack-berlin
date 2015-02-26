@@ -3,7 +3,19 @@ class php-dev::install {
         ensure => installed,
         require => Class['php-cli']
     }
+    package { 'php5-mysqlnd':
+        ensure => installed,
+        require => Class['php-cli']
+    }
+    package { 'php5-pgsql':
+        ensure => installed,
+        require => Class['php-cli']
+    }
     package { 'phpmyadmin':
+        ensure => installed,
+        require => Class['php-cli']
+    }
+    package { 'phppgadmin':
         ensure => installed,
         require => Class['php-cli']
     }

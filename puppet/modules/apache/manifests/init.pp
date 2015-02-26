@@ -5,10 +5,10 @@ class apache::install {
     package { 'apache2-mpm-prefork':
         ensure => installed,
     }
+    /*
     package { 'apache2-mpm-worker':
         ensure => installed,
     }
-    /*
     package { 'libapache2-mod-fcgid':
         ensure => installed,
         require => Class['php-fpm']

@@ -18,8 +18,7 @@ class {
     
     'php-cli': stage => main;
     'php-dev': stage => main;
-    #'php-fpm': stage => main;
-    
+
     'apache':   stage => main;
     
     
