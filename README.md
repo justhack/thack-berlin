@@ -3,7 +3,7 @@ THack Berlin 2015
 
 # How to install
 
-* Install [vagrant](https://www.vagrantup.com/)
+* Install [vagrant](https://www.vagrantup.com/) and NFS server
 
 * `git clone [this repo]`
 
