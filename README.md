@@ -17,6 +17,11 @@ THack Berlin 2015
 
 * `composer install`
 
+# Run
+
+Visit http://thack-berlin.vagrant.netanday.it/app_dev.php/home
+
+
 # Database
 
 `mysql`
