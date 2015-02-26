@@ -32,7 +32,6 @@ class AppKernel extends Kernel
             'test'
         ))) {
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
-            $bundles[] = new Acme\DemoBundle\AcmeDemoBundle();
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
