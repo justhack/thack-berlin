@@ -5,6 +5,7 @@ use JMS\SerializerBundle\JMSSerializerBundle;
 use FOS\RestBundle\FOSRestBundle;
 use Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle;
 use Nelmio\ApiDocBundle\NelmioApiDocBundle;
+use FOS\JsRoutingBundle\FOSJsRoutingBundle;
 
 class AppKernel extends Kernel
 {
@@ -24,7 +25,8 @@ class AppKernel extends Kernel
             new FOSRestBundle(),
             new BazingaHateoasBundle(),
             new NelmioApiDocBundle(),
-            new AppBundle\AppBundle()
+            new AppBundle\AppBundle(),
+            new FOSJsRoutingBundle()
         );
 
         if (in_array($this->getEnvironment(), array(

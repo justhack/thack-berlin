@@ -1,6 +1,6 @@
-var customInterpolationApp = angular.module('thack', []);
+var thack = angular.module('thack', []);
 
-customInterpolationApp.config(function($interpolateProvider) {
+thack.config(function($interpolateProvider) {
 	$interpolateProvider.startSymbol('[[');
 	$interpolateProvider.endSymbol(']]');
 });
